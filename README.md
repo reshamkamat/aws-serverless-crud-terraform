@@ -39,8 +39,7 @@ Initialize Terraform:
 
 ```bash
 terraform init
-
-
+```
 
 
 # Step-by-Step Validation with Screenshots
