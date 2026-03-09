@@ -63,10 +63,10 @@ Apply complete! Resources: 21 added, 0 changed, 0 destroyed.
 
 Outputs:
 api_base_url = "https://ss1v2g520a.execute-api.ap-south-1.amazonaws.com/dev"
-
+```
 screenshot
 
-screenshots/terraform-apply-success.png
+![Terraform Apply Success](screenshots/terraform-apply-success.png)
 
 
 
