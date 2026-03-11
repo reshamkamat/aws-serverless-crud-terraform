@@ -99,6 +99,9 @@ When no records are present, the API returns:
 
 screenshot
 
+![API Gateway GET](screenshots/api-gateway-get-tasks.png)
+
+
 
 Step 3: Create Task using POST Request
 What was done
@@ -131,6 +134,8 @@ Example Response
 
 screenshot
 
+![Create Task Response](screenshots/create-task-response.png)
+
 
 
 Step 4: Verify Item in DynamoDB
@@ -161,6 +166,11 @@ status
 
 screenshot
 
+![DynamoDB Item](screenshots/dynamodb-task-item.png)
+
+
+
+
 
 
 Step 5: Delete Task and Verify Empty Table
@@ -175,7 +185,6 @@ curl -X DELETE "https://ss1v2g520a.execute-api.ap-south-1.amazonaws.com/dev/task
 
 
 Expected Response
-
 
 {
   "message": "Task deleted"
@@ -203,3 +212,8 @@ The record was removed from DynamoDB
 The API correctly returns an empty list when no tasks are present
 
 Screenshots
+
+
+This confirms that the task was successfully removed from DynamoDB.
+
+![Tasks After Delete](screenshots/tasks-after-delete.png)
